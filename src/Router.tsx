@@ -4,7 +4,6 @@ const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<>Hello World</>} />
-      <Route path="/v2" element={<>Hello World 2</>} />
     </Routes>
   )
 }
