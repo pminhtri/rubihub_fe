@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 
-const Router = () => {
+const AppRouter = () => {
   return (
     <Routes>
       <Route path="/" element={<>Hello World</>} />
@@ -8,4 +8,4 @@ const Router = () => {
   )
 }
 
-export default Router;
+export default AppRouter;
